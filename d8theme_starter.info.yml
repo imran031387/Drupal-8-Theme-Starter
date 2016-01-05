@@ -1,0 +1,19 @@
+name: D8Theme Starter
+description: Drupal 8 Starter Theme
+type: theme
+core: 8.x
+screenshot: d8theme_starter.png
+libraries:
+  - d8theme_starter/global-css
+  - d8theme_starter/global-js
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
+  main_navigation: 'Main Navigation'
+  latest_movies: 'Latest Movies'
