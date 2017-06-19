@@ -1,5 +1,5 @@
 {  
-  name": "cybertron-gulp",
+  "name": "cybertron-gulp",
   "version": "1.0.0",
   "description": "Gulp dependencies for cybertron theme",
   "main": "gulpfile.js",
